@@ -14,4 +14,4 @@
 # limitations under the License.
 #
 
-add_lunch_combo aospa_e2303-userdebug
+add_lunch_combo pa_e2303-userdebug
