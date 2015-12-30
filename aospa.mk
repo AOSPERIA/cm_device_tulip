@@ -10,7 +10,7 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 # Inherit AOSP device configuration
 $(call inherit-product, device/sony/tulip/aosp_e2303.mk)
 
-PRODUCT_NAME := cm_tulip
+PRODUCT_NAME := aospa_tulip
 PRODUCT_DEVICE := tulip
 PRODUCT_MODEL := Xperia M4 Aqua
 PRODUCT_BRAND := Sony
