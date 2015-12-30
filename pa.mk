@@ -1,5 +1,5 @@
 # Check for target product
-ifeq (aospa_tulip,$(TARGET_PRODUCT))
+ifeq (pa_tulip,$(TARGET_PRODUCT))
 
 # Bootanimation
 AOSPA_BOOTANIMATION_NAME := 720
