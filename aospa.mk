@@ -1,16 +1,16 @@
 # Check for target product
-ifeq (cm_tulip,$(TARGET_PRODUCT))
+ifeq (aospa_tulip,$(TARGET_PRODUCT))
 
 # Bootanimation
-PAC_BOOTANIMATION_NAME := 720
+AOSPA_BOOTANIMATION_NAME := 720
 
-# Inherit CM common stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit AOSPA common stuff.
+$(call inherit-product, vendor/pa/config/common_full_phone.mk)
 
 # Inherit AOSP device configuration
-$(call inherit-product, device/sony/tulip/aosp_e2303.mk)
+$(call inherit-product, device/sony/tulip/pa_e2303.mk)
 
-PRODUCT_NAME := aospa_tulip
+PRODUCT_NAME := pa_tulip
 PRODUCT_DEVICE := tulip
 PRODUCT_MODEL := Xperia M4 Aqua
 PRODUCT_BRAND := Sony
