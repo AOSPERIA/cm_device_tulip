@@ -14,4 +14,6 @@
 
 include device/sony/kanuti/BoardConfig.mk
 
+-include device/cyanogen/msm8939-common/BoardConfigCommon.mk
+
 TARGET_BOOTLOADER_BOARD_NAME := E2303
